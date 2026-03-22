@@ -1,0 +1,44 @@
+<ChasteBuildInfo>
+	<ProvenanceInfo>
+		<VersionString>2024.2.682908c</VersionString> <!-- build specific -->
+		<IsWorkingCopyModified>1</IsWorkingCopyModified>
+		<BuildInformation>Debug</BuildInformation>
+		<BuildTime>Sun, 22 Mar 2026 10:38:52 +0000</BuildTime>
+		<CurrentTime>Sun, 22 Mar 2026 14:45:29 +0000</CurrentTime>
+		<BuilderUnameInfo>Linux</BuilderUnameInfo>
+		<ChasteTestOutputDirectory>/home/heiland/git/learn_Chaste/chaste_build/testoutput/</ChasteTestOutputDirectory>
+		<Projects>
+			<Project>
+				<Name>AreaGrowthRepulsion</Name>
+				<Version>Unknown</Version>
+				<Modified>False</Modified>
+			</Project>
+			<Project>
+				<Name>Relax11</Name>
+				<Version>Unknown</Version>
+				<Modified>False</Modified>
+			</Project>
+		</Projects>
+	</ProvenanceInfo>
+	<Compiler>
+		<NameAndVersion>/usr/bin/c++, version 13.3.0</NameAndVersion>
+		<Flags>-Wall -Werror -Wnon-virtual-dtor -Woverloaded-virtual -Wextra -Wno-attributes -Wno-unused-parameter -Wvla -Wimplicit-fallthrough=2 -g</Flags>
+	</Compiler>
+	<Libraries>
+		<CompiledIn>
+			<PETSc>3.19.6</PETSc>
+			<Boost>1.83.0</Boost>
+			<HDF5>1.10.10</HDF5>
+			<Parmetis>4.0.3</Parmetis>
+		</CompiledIn>
+		<Binaries>
+			<XSD>4.0.0</XSD>
+		</Binaries>
+		<Optional>
+			<SUNDIALS>6.4.1</SUNDIALS>
+			<VTK>9.3</VTK>
+			<Xerces>3.2.4</Xerces>
+		</Optional>
+	</Libraries>
+	<ChasteCodegenVersion>chaste_codegen 0.10.6</ChasteCodegenVersion>
+</ChasteBuildInfo>

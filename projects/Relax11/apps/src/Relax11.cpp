@@ -198,6 +198,7 @@ int main(int argc, char* argv[])
 
         // ---- Pure repulsion ----
         MAKE_PTR(RepulsionForce<2>, p_force);
+        p_force->SetMeinekeSpringStiffness(5.0);   // vs. default 15.0
         sim.AddForce(p_force);
 
         // ---- CSV + debug output ----
